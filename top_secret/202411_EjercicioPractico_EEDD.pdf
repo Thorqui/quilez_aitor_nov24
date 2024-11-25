@@ -1,0 +1,141 @@
+Enunciado del Ejercicio Práctico
+Objetivo:
+Demostrar la capacidad de utilizar herramientas de control de versiones para la
+gestión de proyectos mediante Git y GitHub, aplicando buenas prácticas de
+trabajo en equipo y colaboración remota, todo ello ambientado en el universo
+de Mortadelo y Filemón.
+Contexto
+La agencia T.I.A. está desarrollando un nuevo sistema para gestionar las misiones
+de sus agentes secretos. Como colaborador en esta importante tarea, deberás
+crear un proyecto utilizando Git y GitHub para asegurar que todo esté bajo control.
+¡El Súper supervisará el trabajo y quiere verlo todo perfectamente documentado!
+ Entornos de Desarrollo
+2
+Instrucciones
+1. Creación de un repositorio remoto en GitHub:
+o Accede a tu cuenta de GitHub y crea un repositorio remoto con un
+nombre descriptivo, por ejemplo: apellido1_nombre_nov24.
+Este repositorio puede ser privado, siempre y cuando el Súper (tu
+profesor) esté autorizado como colaborador.
+2. Clonación del repositorio en local:
+o Clona el repositorio remoto en tu máquina local, asegurándote de
+que los datos de la T.I.A. no se pierdan.
+3. Estructura de archivos y carpetas:
+o Dentro del repositorio local, organiza tus archivos como sigue:
+ src (código fuente del sistema de espionaje)
+ docs (documentación secreta)
+ assets (recursos gráficos, como planos y fotos)
+ miConfiguracionPersonal (configuraciones específicas
+de tu equipo de agente)
+o Añade un archivo en cada carpeta:
+ src/index.html:
+ Incluye un título con tu nombre completo, un enlace a
+tu repositorio en GitHub y una breve descripción de
+tus habilidades como agente de la T.I.A.
+ top_secret/202411_EjercicioPractico_EEDD.pdf
+ Este será el documento con las instrucciones
+(¡confidencial!).
+ assets/logo.png:
+ Cualquier imagen que encuentres por internet.
+4. Uso de .gitignore:
+o Crea un archivo .gitignore en la raíz del repositorio que ignore:
+ Ficheros fuente de Photoshop (*.xsd).
+ Entornos de Desarrollo
+3
+ La carpeta top_secret.
+5. Creación de una rama secundaria:
+o Crea una nueva rama con tu nombre y apellidos (todo junto, sin
+espacios, tildes, eñes ni caracteres especiales).
+Ejemplo: PepeGotera.
+o Cambia a esta rama y modifica el archivo README.md explicando
+los pasos que has seguido hasta ahora.
+6. Commits y unión de ramas:
+o Realiza al menos tres commits con mensajes que sigan las normas
+de la T.I.A.:
+ "Estructura inicial del proyecto"
+ "Añadido archivo .gitignore"
+ "Actualización del README en la rama secundaria"
+o Une la rama secundaria con la rama main.
+7. Incorporación de un colaborador:
+o Añade a El Súper como colaborador. Su usuario de GitHub
+es: luisgs-unir.
+8. Capturas de pantalla:
+o Toma capturas de pantalla de los siguientes pasos clave (deberán
+incluir fecha y hora visible):
+ Estructura de archivos y carpetas en tu repositorio local.
+ Configuración del archivo .gitignore mostrando los
+archivos ignorados.
+ Consola con el historial de commits realizados.
+o Guarda las capturas en la carpeta assets con nombres:
+ estructura.png
+ ignorados.png
+ log.png.
+o En caso de que tengas algún problema que te impida finalizar la
+tarea, incorpora tantas capturas de pantalla como consideres
+necesarias para explicar el problema.
+ Entornos de Desarrollo
+4
+9. Subida de cambios al repositorio remoto:
+o Asegúrate de que todos los cambios están listos y realiza
+un push para sincronizar con el repositorio remoto de la T.I.A.
+Entregable
+ El repositorio remoto en GitHub con la estructura de archivos, ramas,
+commits y capturas solicitadas.
+ Asegúrate de que el Súper tiene acceso al repositorio hasta que se
+confirme el éxito de la misión (mínimo julio de 2025).
+ Indica la URL del repositorio remoto en la plataforma del campus.
+ Comprime la carpeta de tu repositorio local en un fichero .zip cuyo
+nombre se corresponda con el siguiente formato:
+apellido1Apellido2_Nombre.zip
+Nota:
+El Súper valorará la correcta ejecución de cada paso, la claridad en los mensajes
+de commit, y la organización de las capturas. ¡Buena suerte, agente!
+ Entornos de Desarrollo
+5
+Rúbrica de Evaluación: "Misión T.I.A.: Control de Versiones"
+(100%)
+Criterio Descripción Peso
+1. Creación del
+repositorio remoto
+(GitHub)
+El repositorio remoto fue creado correctamente, con un nombre
+descriptivo y el profesor fue añadido como colaborador.
+10%
+2. Clonación del
+repositorio en local
+Clonación exitosa del repositorio remoto en la máquina local. 10%
+3. Estructura de
+archivos y carpetas
+Correcta creación y organización de las carpetas src, docs, assets,
+miConfiguracionPersonal y sus respectivos archivos.
+15%
+4. Configuración de
+.gitignore
+Configuración adecuada para ignorar ficheros y carpetas
+especificados (*.xsd, top_secret).
+10%
+5. Creación y uso de una
+rama secundaria
+Creación y uso de la rama secundaria con nombre correcto.
+Modificaciones en README.md bien documentadas.
+10%
+6. Commits y unión de
+ramas
+Realización de al menos 3 commits con mensajes claros y
+descriptivos. Fusión correcta de la rama secundaria con main.
+15%
+7. Incorporación de
+colaborador
+Profesor añadido correctamente como colaborador en el
+repositorio remoto.
+5%
+8. Capturas de pantalla
+Capturas claras de los pasos solicitados (estructura de archivos,
+configuración de .gitignore, historial de commits) con nombres
+correctos.
+15%
+9. Subida de cambios al
+repositorio remoto
+Correcta sincronización de todos los cambios con el repositorio
+remoto, incluyendo las capturas de pantalla.
+10%
